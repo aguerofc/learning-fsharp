@@ -47,10 +47,10 @@ let rec retryAsync (func: unit -> Async<'T>) (retries: int) : Async<'T> =
 
 let getChatGPTResponse (prompt: string) : Async<string> =
      async {
-        let apiValue = "apivalue" 
-        let uri = "url"
+        let apiKey = "apiKey" 
+        let uri = "https://api.openai.com/v1/chat/completions"
         use client = new HttpClient()
-        client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiValue}")
+        client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}")
 
         let requestBody = 
             {|
