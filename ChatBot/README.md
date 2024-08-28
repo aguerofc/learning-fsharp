@@ -86,3 +86,6 @@ Replace the placeholder `"YOUR_OPENAI_API_KEY"` in the `getChatGPTResponse` func
 
 ```fsharp
 let apiKey = "YOUR_OPENAI_API_KEY"
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
