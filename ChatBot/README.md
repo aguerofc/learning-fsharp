@@ -83,9 +83,10 @@ Ensure you have the following installed:
 ### Configuration
 
 Replace the placeholder `"YOUR_OPENAI_API_KEY"` in the `getChatGPTResponse` function with your actual API key from OpenAI:
-
 ```fsharp
 let apiKey = "YOUR_OPENAI_API_KEY"
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
